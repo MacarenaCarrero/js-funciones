@@ -47,7 +47,9 @@ printNumber(3);
 
 //se puede poner separados por comas
 function printOperation(numberC, numberD) {
-  console.log(numberC + numberD);
+  const result = numberC + numberD;
+  console.log(numberC + numberD); //el console log solo sirve para que vea el resultado
 }
 
 printOperation(2, 3);
+printOperation(5, 1);
